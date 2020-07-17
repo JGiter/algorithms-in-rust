@@ -1,0 +1,6 @@
+language: rust
+rust: 1.43.1
+script:
+  - cargo build
+  - cargo test
+  

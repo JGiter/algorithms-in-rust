@@ -1,7 +1,7 @@
 /**
  * Finds count of trailing zeros in factorial of n
  */
-fn zeros(n: u64) -> u64 {
+pub fn zeros(n: u64) -> u64 {
   let mut total_of_2 = 0;
   let mut evens = (n - (n % 2)) / 2;
   while evens > 0 {
