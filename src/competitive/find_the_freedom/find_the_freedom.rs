@@ -1,7 +1,7 @@
 use std::collections::BTreeSet;
 use std::iter::FromIterator;
 
-pub fn find_freedom(n: usize, k: u64, nums: Vec<u64>) -> usize {
+pub fn find_freedom(_n: usize, k: u64, nums: Vec<u64>) -> usize {
     let mut nums_set: BTreeSet<u64> = BTreeSet::from_iter(nums.into_iter());
     let mut freedom = 0;
     while !nums_set.is_empty() {
